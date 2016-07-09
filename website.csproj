@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F9047482-E0CB-458E-8D12-4B9C8522247C}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ConsoleApplication1</RootNamespace>
+    <AssemblyName>ConsoleApplication1</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\fonts\dotx-icons.svg" />
+    <Content Include="assets\fonts\ProximaNova-Light-4b06d3a529c9c826d74f5ec127e6794b.svg" />
+    <Content Include="assets\fonts\ProximaNova-Regular-afb24dc1729319aa4312beb156e322b4.svg" />
+    <Content Include="assets\fonts\ProximaNova-RegularIt-3bc258b118e61c4e094363ed9032e8f7.svg" />
+    <Content Include="assets\fonts\ProximaNova-Semibold-6d67e36a9e19cc4fe60195bddc332634.svg" />
+    <Content Include="assets\js\jquery-2.1.1.js" />
+    <Content Include="assets\js\main.js" />
+    <Content Include="assets\js\modernizr.js" />
+    <Content Include="blog\index.html" />
+    <Content Include="index.html" />
+    <Content Include="_includes\comments.html" />
+    <Content Include="_includes\footer.html" />
+    <Content Include="_includes\head.html" />
+    <Content Include="_includes\header.html" />
+    <Content Include="_includes\icon-github.svg" />
+    <Content Include="_includes\icon-twitter.svg" />
+    <Content Include="_includes\navbar.html" />
+    <Content Include="_includes\pagination.html" />
+    <Content Include="_includes\scripts.html" />
+    <Content Include="_includes\social.html" />
+    <Content Include="_layouts\blank.html" />
+    <Content Include="_layouts\compress.html" />
+    <Content Include="_layouts\default.html" />
+    <Content Include="_layouts\page.html" />
+    <Content Include="_layouts\post.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\css\main.scss" />
+    <None Include="assets\fonts\dotx-icons.eot" />
+    <None Include="assets\fonts\dotx-icons.woff" />
+    <None Include="assets\fonts\dotxend-icons.ttf" />
+    <None Include="assets\fonts\ProximaNova-Light-42c399da47c6ef57a69bdc43c142d9e0.eot" />
+    <None Include="assets\fonts\ProximaNova-Light-42c399da47c6ef57a69bdc43c142d9e0.eot_" />
+    <None Include="assets\fonts\ProximaNova-Light-6e657e723c01367670cbefca2d8a24a1.woff" />
+    <None Include="assets\fonts\ProximaNova-Light-c7361c70f999f4ecb48bde9982a2fc8e.ttf" />
+    <None Include="assets\fonts\ProximaNova-Regular-5d6460d44f97092b29090dce3334e943.ttf" />
+    <None Include="assets\fonts\ProximaNova-Regular-8da92e56f55db5989384d7de4bfe67fe.woff" />
+    <None Include="assets\fonts\ProximaNova-Regular-c451d7b3d80f69412df81a1a3a7352f7.eot" />
+    <None Include="assets\fonts\ProximaNova-Regular-c451d7b3d80f69412df81a1a3a7352f7.eot_" />
+    <None Include="assets\fonts\ProximaNova-RegularIt-71749f77d5fcc0289ff0321ead78be00.eot" />
+    <None Include="assets\fonts\ProximaNova-RegularIt-71749f77d5fcc0289ff0321ead78be00.eot_" />
+    <None Include="assets\fonts\ProximaNova-RegularIt-eba90fe199cf3fa3999189e25d691cba.woff" />
+    <None Include="assets\fonts\ProximaNova-RegularIt-f40efaf943299639efae56f0db6d0fa8.ttf" />
+    <None Include="assets\fonts\ProximaNova-Semibold-34c88b3bc9fce5aa4e9b328edf5716e0.ttf" />
+    <None Include="assets\fonts\ProximaNova-Semibold-523b93c5938637c5dfdcbde51c0ea43d.eot" />
+    <None Include="assets\fonts\ProximaNova-Semibold-523b93c5938637c5dfdcbde51c0ea43d.eot_" />
+    <None Include="assets\fonts\ProximaNova-Semibold-59ec19cde74dec0b7a1ea46ce775811b.woff" />
+    <None Include="_config.yml" />
+    <None Include="_posts\2015-12-20-welcome-to-jekyll.markdown" />
+    <None Include="_posts\2015-12-20-welcome-to-jekyll2.markdown" />
+    <None Include="_posts\2015-12-20-welcome-to-jekyll3.markdown" />
+    <None Include="_sass\base\_base.scss" />
+    <None Include="_sass\base\_buttons.scss" />
+    <None Include="_sass\base\_footer.scss" />
+    <None Include="_sass\base\_forms.scss" />
+    <None Include="_sass\base\_globals.scss" />
+    <None Include="_sass\base\_grid-settings.scss" />
+    <None Include="_sass\base\_icons.scss" />
+    <None Include="_sass\base\_intro.scss" />
+    <None Include="_sass\base\_lists.scss" />
+    <None Include="_sass\base\_navbar.scss" />
+    <None Include="_sass\base\_normalize.scss" />
+    <None Include="_sass\base\_post.scss" />
+    <None Include="_sass\base\_syntax-highlighting.scss" />
+    <None Include="_sass\base\_tables.scss" />
+    <None Include="_sass\base\_typography.scss" />
+    <None Include="_sass\bourbon\addons\_border-color.scss" />
+    <None Include="_sass\bourbon\addons\_border-radius.scss" />
+    <None Include="_sass\bourbon\addons\_border-style.scss" />
+    <None Include="_sass\bourbon\addons\_border-width.scss" />
+    <None Include="_sass\bourbon\addons\_buttons.scss" />
+    <None Include="_sass\bourbon\addons\_clearfix.scss" />
+    <None Include="_sass\bourbon\addons\_ellipsis.scss" />
+    <None Include="_sass\bourbon\addons\_font-stacks.scss" />
+    <None Include="_sass\bourbon\addons\_hide-text.scss" />
+    <None Include="_sass\bourbon\addons\_margin.scss" />
+    <None Include="_sass\bourbon\addons\_padding.scss" />
+    <None Include="_sass\bourbon\addons\_position.scss" />
+    <None Include="_sass\bourbon\addons\_prefixer.scss" />
+    <None Include="_sass\bourbon\addons\_retina-image.scss" />
+    <None Include="_sass\bourbon\addons\_size.scss" />
+    <None Include="_sass\bourbon\addons\_text-inputs.scss" />
+    <None Include="_sass\bourbon\addons\_timing-functions.scss" />
+    <None Include="_sass\bourbon\addons\_triangle.scss" />
+    <None Include="_sass\bourbon\addons\_word-wrap.scss" />
+    <None Include="_sass\bourbon\css3\_animation.scss" />
+    <None Include="_sass\bourbon\css3\_appearance.scss" />
+    <None Include="_sass\bourbon\css3\_backface-visibility.scss" />
+    <None Include="_sass\bourbon\css3\_background-image.scss" />
+    <None Include="_sass\bourbon\css3\_background.scss" />
+    <None Include="_sass\bourbon\css3\_border-image.scss" />
+    <None Include="_sass\bourbon\css3\_calc.scss" />
+    <None Include="_sass\bourbon\css3\_columns.scss" />
+    <None Include="_sass\bourbon\css3\_filter.scss" />
+    <None Include="_sass\bourbon\css3\_flex-box.scss" />
+    <None Include="_sass\bourbon\css3\_font-face.scss" />
+    <None Include="_sass\bourbon\css3\_font-feature-settings.scss" />
+    <None Include="_sass\bourbon\css3\_hidpi-media-query.scss" />
+    <None Include="_sass\bourbon\css3\_hyphens.scss" />
+    <None Include="_sass\bourbon\css3\_image-rendering.scss" />
+    <None Include="_sass\bourbon\css3\_keyframes.scss" />
+    <None Include="_sass\bourbon\css3\_linear-gradient.scss" />
+    <None Include="_sass\bourbon\css3\_perspective.scss" />
+    <None Include="_sass\bourbon\css3\_placeholder.scss" />
+    <None Include="_sass\bourbon\css3\_radial-gradient.scss" />
+    <None Include="_sass\bourbon\css3\_selection.scss" />
+    <None Include="_sass\bourbon\css3\_text-decoration.scss" />
+    <None Include="_sass\bourbon\css3\_transform.scss" />
+    <None Include="_sass\bourbon\css3\_transition.scss" />
+    <None Include="_sass\bourbon\css3\_user-select.scss" />
+    <None Include="_sass\bourbon\functions\_assign-inputs.scss" />
+    <None Include="_sass\bourbon\functions\_contains-falsy.scss" />
+    <None Include="_sass\bourbon\functions\_contains.scss" />
+    <None Include="_sass\bourbon\functions\_is-length.scss" />
+    <None Include="_sass\bourbon\functions\_is-light.scss" />
+    <None Include="_sass\bourbon\functions\_is-number.scss" />
+    <None Include="_sass\bourbon\functions\_is-size.scss" />
+    <None Include="_sass\bourbon\functions\_modular-scale.scss" />
+    <None Include="_sass\bourbon\functions\_px-to-em.scss" />
+    <None Include="_sass\bourbon\functions\_px-to-rem.scss" />
+    <None Include="_sass\bourbon\functions\_shade.scss" />
+    <None Include="_sass\bourbon\functions\_strip-units.scss" />
+    <None Include="_sass\bourbon\functions\_tint.scss" />
+    <None Include="_sass\bourbon\functions\_transition-property-name.scss" />
+    <None Include="_sass\bourbon\functions\_unpack.scss" />
+    <None Include="_sass\bourbon\helpers\_convert-units.scss" />
+    <None Include="_sass\bourbon\helpers\_directional-values.scss" />
+    <None Include="_sass\bourbon\helpers\_font-source-declaration.scss" />
+    <None Include="_sass\bourbon\helpers\_gradient-positions-parser.scss" />
+    <None Include="_sass\bourbon\helpers\_linear-angle-parser.scss" />
+    <None Include="_sass\bourbon\helpers\_linear-gradient-parser.scss" />
+    <None Include="_sass\bourbon\helpers\_linear-positions-parser.scss" />
+    <None Include="_sass\bourbon\helpers\_linear-side-corner-parser.scss" />
+    <None Include="_sass\bourbon\helpers\_radial-arg-parser.scss" />
+    <None Include="_sass\bourbon\helpers\_radial-gradient-parser.scss" />
+    <None Include="_sass\bourbon\helpers\_radial-positions-parser.scss" />
+    <None Include="_sass\bourbon\helpers\_render-gradients.scss" />
+    <None Include="_sass\bourbon\helpers\_shape-size-stripper.scss" />
+    <None Include="_sass\bourbon\helpers\_str-to-num.scss" />
+    <None Include="_sass\bourbon\settings\_asset-pipeline.scss" />
+    <None Include="_sass\bourbon\settings\_prefixer.scss" />
+    <None Include="_sass\bourbon\settings\_px-to-em.scss" />
+    <None Include="_sass\bourbon\_bourbon-deprecated-upcoming.scss" />
+    <None Include="_sass\bourbon\_bourbon.scss" />
+    <None Include="_sass\main.scss" />
+    <None Include="_sass\_mixins.scss" />
+    <None Include="_sass\_variables.scss" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

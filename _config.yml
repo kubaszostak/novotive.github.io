@@ -1,0 +1,31 @@
+
+destination: _site
+sass:
+  sass_dir: _sass
+  style: expanded # compressed # expanded
+
+# permalink and highlighter
+permalink   : /:year/:title/
+markdown    : kramdown
+highlighter : pygments
+
+# SEO settings
+title: Novotive
+description: "Novotive landing page"
+keywords: "novotive, GIS, AutoCAD, BricsCAD"
+
+# Site settings
+url: http://novotive.github.io
+baseurl: ""
+
+# Author settings
+author:
+  name      : Novotive
+  job       : App development
+  bio       : "GIS proffesional with coding skills"
+  thumb     : /images/author.jpg
+  email     : info@novotive.com
+  url       : http://novotive.com
+
+repo: http://github.com/novotive/
+
