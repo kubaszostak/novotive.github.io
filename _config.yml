@@ -10,22 +10,22 @@ markdown    : kramdown
 highlighter : pygments
 
 # SEO settings
-title: Novotive
-description: "Novotive landing page"
-keywords: "novotive, GIS, AutoCAD, BricsCAD"
+title: QSZ
+description: "QSZ landing page"
+keywords: "qsz"
 
 # Site settings
-url: http://novotive.github.io
+url: https://qsz.pl
 baseurl: ""
 
 # Author settings
 author:
-  name      : Novotive
+  name      : QSZ
   job       : App development
   bio       : "GIS proffesional with coding skills"
   thumb     : /images/author.jpg
-  email     : info@novotive.com
-  url       : http://novotive.com
+  email     : info@qsz.pl
+  url       : https://qsz.pl
 
-repo: http://github.com/novotive/
+repo: http://github.com/kubaszostak/qsz.pl
 
